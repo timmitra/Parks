@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Query_Requery_Subview: View {
+struct QueryRequerySubview: View {
   
   @State private var sortOrder = SortOrder.forward
   @State private var filterOn = false
@@ -32,6 +32,6 @@ struct Query_Requery_Subview: View {
 }
 
 #Preview {
-    Query_Requery_Subview()
+    QueryRequerySubview()
     .modelContainer(ParkModel.preview)
 }
