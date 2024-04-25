@@ -17,6 +17,7 @@
 		2A5ECCD12BDB024D00C5AE78 /* QueryRequerySubview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD02BDB024D00C5AE78 /* QueryRequerySubview.swift */; };
 		2A5ECCD32BDB031600C5AE78 /* ParkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD22BDB031600C5AE78 /* ParkListView.swift */; };
 		2A5ECCD52BDB065800C5AE78 /* QueryRequeryFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD42BDB065800C5AE78 /* QueryRequeryFetch.swift */; };
+		2A5ECCD72BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD62BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		2A5ECCD02BDB024D00C5AE78 /* QueryRequerySubview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryRequerySubview.swift; sourceTree = "<group>"; };
 		2A5ECCD22BDB031600C5AE78 /* ParkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkListView.swift; sourceTree = "<group>"; };
 		2A5ECCD42BDB065800C5AE78 /* QueryRequeryFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryRequeryFetch.swift; sourceTree = "<group>"; };
+		2A5ECCD62BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryFilteringWithSearchable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 				2A5ECCD02BDB024D00C5AE78 /* QueryRequerySubview.swift */,
 				2A5ECCD22BDB031600C5AE78 /* ParkListView.swift */,
 				2A5ECCD42BDB065800C5AE78 /* QueryRequeryFetch.swift */,
+				2A5ECCD62BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift */,
 			);
 			path = Parks;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				2A5ECCCD2BDAF60A00C5AE78 /* ParkRowView.swift in Sources */,
 				2A5ECCD12BDB024D00C5AE78 /* QueryRequerySubview.swift in Sources */,
 				2A5ECCCF2BDAFF7400C5AE78 /* QueryDynamicView.swift in Sources */,
+				2A5ECCD72BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift in Sources */,
 				2A5ECCD32BDB031600C5AE78 /* ParkListView.swift in Sources */,
 				2A16EF892BDAF16200F5DDEE /* ParksApp.swift in Sources */,
 				2A16EF972BDAF17500F5DDEE /* ParkModel.swift in Sources */,

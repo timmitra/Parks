@@ -12,7 +12,7 @@ import SwiftData
 struct ParksApp: App {
     var body: some Scene {
         WindowGroup {
-          QueryRequerySubview()
+          QueryFilteringWithSearchable()
             .modelContainer(for: ParkModel.self)
         }
     }
