@@ -13,12 +13,19 @@ struct QueryDynamicView: View {
   @Query var parks: [ParkModel]
   @State private var orderAscending = true
   
-  private var sortedParks: [ParkModel] {
+  /* private var sortedParks: [ParkModel] {
     parks.sorted { park1, park2 in
       orderAscending ? park1.name < park2.name : park1.name > park2.name
     }
-  }
+  } */
   
+  /* shorter */
+  private var sortedParks: [ParkModel] {
+    parks.sorted {
+      orderAscending ? $0.name < $1.name : $0.name > $1.name
+    }
+  }
+
     var body: some View {
       NavigationStack {
         List(sortedParks) { park in

@@ -59,11 +59,11 @@
 			children = (
 				2A16EF882BDAF16200F5DDEE /* ParksApp.swift */,
 				2A16EF8A2BDAF16200F5DDEE /* QueryView.swift */,
+				2A5ECCCE2BDAFF7400C5AE78 /* QueryDynamicView.swift */,
 				2A16EF8C2BDAF16400F5DDEE /* Assets.xcassets */,
 				2A16EF8E2BDAF16400F5DDEE /* Preview Content */,
 				2A16EF962BDAF17500F5DDEE /* ParkModel.swift */,
 				2A5ECCCC2BDAF60A00C5AE78 /* ParkRowView.swift */,
-				2A5ECCCE2BDAFF7400C5AE78 /* QueryDynamicView.swift */,
 			);
 			path = Parks;
 			sourceTree = "<group>";
