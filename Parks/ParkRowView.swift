@@ -18,7 +18,7 @@ struct ParkRowView: View {
           .aspectRatio(contentMode: .fit)
           .frame(height: 60.0)
           .clipShape(.rect(cornerRadius: 8))
-        VStack {
+        VStack(alignment: .leading, spacing: 4.0) {
           Text(park.name)
             .font(.title)
           Text(park.viewLocation)

@@ -9,7 +9,7 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-  @Query private var parks: [ParkModel]
+  @Query(sort: \ParkModel.name) private var parks: [ParkModel]
   
     var body: some View {
         List(parks) { park in
