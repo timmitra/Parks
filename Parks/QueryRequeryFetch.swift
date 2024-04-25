@@ -12,6 +12,7 @@ struct QueryRequeryFetch: View {
   @Environment(\.modelContext) private var modelContext
   @State private var sortOrder = SortOrder.forward
   @State private var filterOn = false
+  @State private var refresh = false
   
   private var filteredAndSortedParks: [ParkModel] {
     let sortDescriptors = [SortDescriptor(\ParkModel.name, order: sortOrder)]
@@ -37,8 +38,20 @@ struct QueryRequeryFetch: View {
             filterOn.toggle()
           }
           .symbolVariant(sortOrder == .forward ? .fill : .none)
-
+          Button("", systemImage: "plus") {
+            modelContext.insert(
+              ParkModel(
+                name: "New Park",
+                image: UIImage(resource: .newpark).pngData()!,
+                region: "Vermont",
+                country: "United States",
+                rating: 0
+              )
+            )
+            refresh.toggle()
+          }
         }
+        .id(refresh) // view updates when context changes
       }
     }
 }
