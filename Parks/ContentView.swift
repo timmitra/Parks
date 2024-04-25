@@ -8,6 +8,10 @@
 import SwiftUI
 import SwiftData
 
+enum Country {
+  case unitedStates, canada
+}
+
 struct ContentView: View {
   // A key path is a way to point to a property
   //@Query(sort: \ParkModel.name) private var parks: [ParkModel]
@@ -25,17 +29,35 @@ struct ContentView: View {
     park.country == "Canada"
   }) private var parks: [ParkModel] */
 
-  @Query<ParkModel>(filter: #Predicate { park in
+ /* @Query<ParkModel>(filter: #Predicate { park in
     (park.country == "United States" && park.region == "Utah")
-    || park.country == "Italy"
-    
-  }) private var parks: [ParkModel]
+    || park.country == "Italy" */
+  
+  @State private var country: Country = .unitedStates
+  
+  @Query<ParkModel>(filter: #Predicate {
+    $0.country == "United States"
+  }) private var unitedStatesParks: [ParkModel]
+  
+  @Query<ParkModel>(filter: #Predicate {
+    $0.country == "Canada"
+  }) private var canadaParks: [ParkModel]
+
 
     var body: some View {
-        List(parks) { park in
-          ParkRowView(park: park)
+      VStack {
+        Picker("", selection: $country) {
+          Text("United States").tag(Country.unitedStates)
+          Text("Canada").tag(Country.canada)
         }
-        .navigationTitle("Parks")
+        .pickerStyle(.segmented)
+        .padding(.horizontal)
+        List(country == .canada ? canadaParks : unitedStatesParks) { park in
+            ParkRowView(park: park)
+          }
+        .listStyle(.plain)
+      }
+      .navigationTitle("Parks")
     }
 }
 
