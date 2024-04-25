@@ -14,7 +14,7 @@ struct ParkListView: View {
   init(sortOrder: SortOrder, filterOn: Bool) {
     let sort = [SortDescriptor(\ParkModel.name, order: sortOrder)]
     let filter = #Predicate<ParkModel> { park in
-      park.country == "United Stats"
+      park.country == "United States"
     }
     /* “Query property wrapper’s stored property” */
     _parks = Query(filter: filterOn ? filter : nil, sort: sort)
