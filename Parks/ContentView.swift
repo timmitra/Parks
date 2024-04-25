@@ -6,19 +6,20 @@
 //
 
 import SwiftUI
+import SwiftData
 
 struct ContentView: View {
+  @Query private var parks: [ParkModel]
+  
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        List(parks) { park in
+          ParkRowView(park: park)
         }
-        .padding()
+        .navigationTitle("Parks")
     }
 }
 
 #Preview {
     ContentView()
+    .modelContainer(ParkModel.preview)
 }

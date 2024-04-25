@@ -11,6 +11,8 @@
 		2A16EF8B2BDAF16200F5DDEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A16EF8A2BDAF16200F5DDEE /* ContentView.swift */; };
 		2A16EF8D2BDAF16400F5DDEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A16EF8C2BDAF16400F5DDEE /* Assets.xcassets */; };
 		2A16EF902BDAF16400F5DDEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A16EF8F2BDAF16400F5DDEE /* Preview Assets.xcassets */; };
+		2A16EF972BDAF17500F5DDEE /* ParkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A16EF962BDAF17500F5DDEE /* ParkModel.swift */; };
+		2A5ECCCD2BDAF60A00C5AE78 /* ParkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCCC2BDAF60A00C5AE78 /* ParkRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		2A16EF8A2BDAF16200F5DDEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2A16EF8C2BDAF16400F5DDEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A16EF8F2BDAF16400F5DDEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2A16EF962BDAF17500F5DDEE /* ParkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkModel.swift; sourceTree = "<group>"; };
+		2A5ECCCC2BDAF60A00C5AE78 /* ParkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				2A16EF8A2BDAF16200F5DDEE /* ContentView.swift */,
 				2A16EF8C2BDAF16400F5DDEE /* Assets.xcassets */,
 				2A16EF8E2BDAF16400F5DDEE /* Preview Content */,
+				2A16EF962BDAF17500F5DDEE /* ParkModel.swift */,
+				2A5ECCCC2BDAF60A00C5AE78 /* ParkRowView.swift */,
 			);
 			path = Parks;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A16EF8B2BDAF16200F5DDEE /* ContentView.swift in Sources */,
+				2A5ECCCD2BDAF60A00C5AE78 /* ParkRowView.swift in Sources */,
 				2A16EF892BDAF16200F5DDEE /* ParksApp.swift in Sources */,
+				2A16EF972BDAF17500F5DDEE /* ParkModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
