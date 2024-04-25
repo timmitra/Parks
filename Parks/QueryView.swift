@@ -12,7 +12,7 @@ enum Country {
   case unitedStates, canada
 }
 
-struct ContentView: View {
+struct QueryView: View {
   // A key path is a way to point to a property
   //@Query(sort: \ParkModel.name) private var parks: [ParkModel]
   
@@ -62,6 +62,6 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    QueryView()
     .modelContainer(ParkModel.preview)
 }
