@@ -9,8 +9,14 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
-  @Query(sort: \ParkModel.name) private var parks: [ParkModel]
+  // A key path is a way to point to a property
+  //@Query(sort: \ParkModel.name) private var parks: [ParkModel]
   
+  //@Query(sort: \ParkModel.name, order: .reverse) private var parks: [ParkModel]
+  
+  // sort on multiple
+  @Query(sort: [SortDescriptor(\ParkModel.country), SortDescriptor(\ParkModel.rating, order: .reverse)]) private var parks: [ParkModel]
+
     var body: some View {
         List(parks) { park in
           ParkRowView(park: park)
