@@ -14,6 +14,8 @@
 		2A16EF972BDAF17500F5DDEE /* ParkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A16EF962BDAF17500F5DDEE /* ParkModel.swift */; };
 		2A5ECCCD2BDAF60A00C5AE78 /* ParkRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCCC2BDAF60A00C5AE78 /* ParkRowView.swift */; };
 		2A5ECCCF2BDAFF7400C5AE78 /* QueryDynamicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCCE2BDAFF7400C5AE78 /* QueryDynamicView.swift */; };
+		2A5ECCD12BDB024D00C5AE78 /* Query_Requery_Subview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD02BDB024D00C5AE78 /* Query_Requery_Subview.swift */; };
+		2A5ECCD32BDB031600C5AE78 /* ParkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD22BDB031600C5AE78 /* ParkListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		2A16EF962BDAF17500F5DDEE /* ParkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkModel.swift; sourceTree = "<group>"; };
 		2A5ECCCC2BDAF60A00C5AE78 /* ParkRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkRowView.swift; sourceTree = "<group>"; };
 		2A5ECCCE2BDAFF7400C5AE78 /* QueryDynamicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryDynamicView.swift; sourceTree = "<group>"; };
+		2A5ECCD02BDB024D00C5AE78 /* Query_Requery_Subview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Query_Requery_Subview.swift; sourceTree = "<group>"; };
+		2A5ECCD22BDB031600C5AE78 /* ParkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 				2A16EF8E2BDAF16400F5DDEE /* Preview Content */,
 				2A16EF962BDAF17500F5DDEE /* ParkModel.swift */,
 				2A5ECCCC2BDAF60A00C5AE78 /* ParkRowView.swift */,
+				2A5ECCD02BDB024D00C5AE78 /* Query_Requery_Subview.swift */,
+				2A5ECCD22BDB031600C5AE78 /* ParkListView.swift */,
 			);
 			path = Parks;
 			sourceTree = "<group>";
@@ -148,7 +154,9 @@
 			files = (
 				2A16EF8B2BDAF16200F5DDEE /* QueryView.swift in Sources */,
 				2A5ECCCD2BDAF60A00C5AE78 /* ParkRowView.swift in Sources */,
+				2A5ECCD12BDB024D00C5AE78 /* Query_Requery_Subview.swift in Sources */,
 				2A5ECCCF2BDAFF7400C5AE78 /* QueryDynamicView.swift in Sources */,
+				2A5ECCD32BDB031600C5AE78 /* ParkListView.swift in Sources */,
 				2A16EF892BDAF16200F5DDEE /* ParksApp.swift in Sources */,
 				2A16EF972BDAF17500F5DDEE /* ParkModel.swift in Sources */,
 			);
