@@ -74,3 +74,13 @@ extension ParkModel {
     return container
   }
 }
+
+extension ParkModel {
+  static var firstFive: FetchDescriptor<ParkModel> {
+    var fetch = FetchDescriptor<ParkModel>()
+    fetch.sortBy = [SortDescriptor(\ParkModel.name)]
+    fetch.fetchLimit = 5
+    
+    return fetch
+  }
+}
