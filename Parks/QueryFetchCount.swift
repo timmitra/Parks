@@ -22,7 +22,11 @@ struct QueryFetchCount: View {
           }
         }
         .task {
-          parksCount = try! modelContext.fetchCount(FetchDescriptor<ParkModel>())
+          parksCount = try! modelContext.fetchCount(
+            FetchDescriptor<ParkModel>(predicate: #Predicate { park in
+            park.country == "Canada"
+          })
+          )
         }
         .navigationTitle("Overview")
       }
