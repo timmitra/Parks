@@ -21,6 +21,7 @@
 		2A5ECCD92BDB218E00C5AE78 /* QuerySearchWithSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD82BDB218E00C5AE78 /* QuerySearchWithSearchable.swift */; };
 		2A5ECCDB2BDB244400C5AE78 /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCDA2BDB244400C5AE78 /* ParkDetailView.swift */; };
 		2A840B6D2BDB2FB700A89656 /* QueryOnModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A840B6C2BDB2FB700A89656 /* QueryOnModel.swift */; };
+		2A840B6F2BDB30C100A89656 /* QueryDynamicSortAndOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A840B6E2BDB30C100A89656 /* QueryDynamicSortAndOrder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		2A5ECCD82BDB218E00C5AE78 /* QuerySearchWithSearchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuerySearchWithSearchable.swift; sourceTree = "<group>"; };
 		2A5ECCDA2BDB244400C5AE78 /* ParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailView.swift; sourceTree = "<group>"; };
 		2A840B6C2BDB2FB700A89656 /* QueryOnModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryOnModel.swift; sourceTree = "<group>"; };
+		2A840B6E2BDB30C100A89656 /* QueryDynamicSortAndOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryDynamicSortAndOrder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				2A5ECCD82BDB218E00C5AE78 /* QuerySearchWithSearchable.swift */,
 				2A5ECCDA2BDB244400C5AE78 /* ParkDetailView.swift */,
 				2A840B6C2BDB2FB700A89656 /* QueryOnModel.swift */,
+				2A840B6E2BDB30C100A89656 /* QueryDynamicSortAndOrder.swift */,
 			);
 			path = Parks;
 			sourceTree = "<group>";
@@ -168,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A5ECCDB2BDB244400C5AE78 /* ParkDetailView.swift in Sources */,
+				2A840B6F2BDB30C100A89656 /* QueryDynamicSortAndOrder.swift in Sources */,
 				2A16EF8B2BDAF16200F5DDEE /* QueryView.swift in Sources */,
 				2A5ECCCD2BDAF60A00C5AE78 /* ParkRowView.swift in Sources */,
 				2A5ECCD92BDB218E00C5AE78 /* QuerySearchWithSearchable.swift in Sources */,
