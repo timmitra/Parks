@@ -12,7 +12,7 @@ struct QuerySearchWithSearchable: View {
   @Environment(\.modelContext) private var modelContext
   @State private var searchText = ""
   
-  private var searchResults: [ParkModel] {
+/*  private var searchResults: [ParkModel] {
     let predicate = #Predicate<ParkModel> {
       [searchText] park in
       park.name.localizedStandardContains(searchText)
@@ -22,6 +22,17 @@ struct QuerySearchWithSearchable: View {
     let sortBy = [SortDescriptor(\ParkModel.name)]
     let fetch = FetchDescriptor(predicate: predicate, sortBy: sortBy)
     return try! modelContext.fetch(fetch)
+  } */
+  
+  /* shorter */
+  private var searchResults: [ParkModel] {
+    return try! modelContext.fetch(
+      FetchDescriptor<ParkModel>(predicate: #Predicate { park in
+        park.name.localizedStandardContains(searchText)
+        || park.region.localizedStandardContains(searchText)
+        || park.country.localizedStandardContains(searchText)
+      }, sortBy: [SortDescriptor(\ParkModel.name)])
+    )
   }
   
     var body: some View {
