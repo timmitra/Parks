@@ -18,6 +18,8 @@
 		2A5ECCD32BDB031600C5AE78 /* ParkListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD22BDB031600C5AE78 /* ParkListView.swift */; };
 		2A5ECCD52BDB065800C5AE78 /* QueryRequeryFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD42BDB065800C5AE78 /* QueryRequeryFetch.swift */; };
 		2A5ECCD72BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD62BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift */; };
+		2A5ECCD92BDB218E00C5AE78 /* QuerySearchWithSearchable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCD82BDB218E00C5AE78 /* QuerySearchWithSearchable.swift */; };
+		2A5ECCDB2BDB244400C5AE78 /* ParkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5ECCDA2BDB244400C5AE78 /* ParkDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		2A5ECCD22BDB031600C5AE78 /* ParkListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkListView.swift; sourceTree = "<group>"; };
 		2A5ECCD42BDB065800C5AE78 /* QueryRequeryFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryRequeryFetch.swift; sourceTree = "<group>"; };
 		2A5ECCD62BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueryFilteringWithSearchable.swift; sourceTree = "<group>"; };
+		2A5ECCD82BDB218E00C5AE78 /* QuerySearchWithSearchable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuerySearchWithSearchable.swift; sourceTree = "<group>"; };
+		2A5ECCDA2BDB244400C5AE78 /* ParkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +80,8 @@
 				2A5ECCD22BDB031600C5AE78 /* ParkListView.swift */,
 				2A5ECCD42BDB065800C5AE78 /* QueryRequeryFetch.swift */,
 				2A5ECCD62BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift */,
+				2A5ECCD82BDB218E00C5AE78 /* QuerySearchWithSearchable.swift */,
+				2A5ECCDA2BDB244400C5AE78 /* ParkDetailView.swift */,
 			);
 			path = Parks;
 			sourceTree = "<group>";
@@ -158,8 +164,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5ECCDB2BDB244400C5AE78 /* ParkDetailView.swift in Sources */,
 				2A16EF8B2BDAF16200F5DDEE /* QueryView.swift in Sources */,
 				2A5ECCCD2BDAF60A00C5AE78 /* ParkRowView.swift in Sources */,
+				2A5ECCD92BDB218E00C5AE78 /* QuerySearchWithSearchable.swift in Sources */,
 				2A5ECCD12BDB024D00C5AE78 /* QueryRequerySubview.swift in Sources */,
 				2A5ECCCF2BDAFF7400C5AE78 /* QueryDynamicView.swift in Sources */,
 				2A5ECCD72BDB0A6900C5AE78 /* QueryFilteringWithSearchable.swift in Sources */,
